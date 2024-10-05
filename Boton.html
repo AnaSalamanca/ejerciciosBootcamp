@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Función y InnerHTML</title>
+    <script>
+        function miFuncion() {
+            document.getElementById("contenido").innerHTML = "Cambiando el contenido del div";
+        }
+    </script>
+</head>
+<body>
+    <div id="contenido">Ejercicio de InnerHTML</div>
+    <button onclick="miFuncion()">Ejecutar miFuncion</button>
+</body>
+</html>
